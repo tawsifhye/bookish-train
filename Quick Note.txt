@@ -1,0 +1,8 @@
+Check IP configuration on attacker's machine: ifconfig
+if ifconfig
+Scan network for vulnerable host: nmap 192.168.188.0/24
+Attempts to determine the version of the service running on port: nmap -sV 192.168.188.129  
+
+Web server scan with Nikto: nikto -h http://192.168.188.129
+
+
